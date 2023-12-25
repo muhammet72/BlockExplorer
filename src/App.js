@@ -46,9 +46,11 @@ function App() {
         <button onClick={getBlockDetails}> Get Details </button>
       </div>
       <div>Block's hash: {blockDetails.hash}</div>
+      <div>Block's parentHash: {blockDetails.parentHash}</div>
       <div>Block's nonce: {blockDetails.nonce}</div>
       <div>Block's timestamp: {blockDetails.timestamp} </div>
       <div> Block's Miner: {blockDetails.miner}</div>
+      <div> Block's difficulty: {blockDetails.difficulty}</div>
     </div>
   );
 }
